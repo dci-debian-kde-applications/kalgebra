@@ -1,0 +1,3 @@
+# Devel symlinks without devel headers
+./usr/lib/libanalitza.so
+./usr/lib/libanalitzagui.so
