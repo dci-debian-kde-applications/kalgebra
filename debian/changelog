@@ -1,7 +1,7 @@
-kalgebra (4:4.6.90+repack1-0ubuntu1) UNRELEASED; urgency=low
+kalgebra (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
 
   * New upstream relase candidate
   * Update packaging for split tarball
   * Repack source to include COPYING files
 
- -- Philip Muškovac <yofel@kubuntu.org>  Thu, 30 Jun 2011 11:20:27 +0200
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 20:10:34 +0200
