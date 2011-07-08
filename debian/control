@@ -2,7 +2,7 @@ Source: kalgebra
 Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.6.3),
+Build-Depends: kde-sc-dev-latest (>= 4:4.6.90),
  cmake,
  debhelper (>= 7.3.16),
  pkg-kde-tools (>= 0.12),
