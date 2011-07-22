@@ -1,3 +1,10 @@
+kalgebra (4:4.7.0-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release
+  * Bump breaks/replaces for kalgebramobile to catch natty 4.6.5 packages
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 23:52:02 +0200
+
 kalgebra (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
 
   * New upstream relase candidate
