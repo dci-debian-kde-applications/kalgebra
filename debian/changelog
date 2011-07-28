@@ -1,4 +1,4 @@
-kalgebra (4:4.7.0-0ubuntu1) UNRELEASED; urgency=low
+kalgebra (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
   * New upstream release
   * Bump breaks/replaces for kalgebramobile to catch natty 4.6.5 packages
