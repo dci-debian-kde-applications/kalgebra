@@ -1,8 +1,14 @@
-kalgebra (4:4.7.1-0ubuntu1) UNRELEASED; urgency=low
+kalgebra (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
+  [ Jonathan Kolberg ]
   * New upstream release
 
- -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Sat, 03 Sep 2011 22:34:38 +0200
+  [ Scott Kitterman ]
+  * Make the mobile package descriptions not identical to the regular ones
+  * Improve kalgebra-dbg long descriptions
+  * Fix kalgebra-dbg depends
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 08 Sep 2011 09:54:16 -0400
 
 kalgebra (4:4.7.0-0ubuntu1) oneiric; urgency=low
 

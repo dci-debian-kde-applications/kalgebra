@@ -42,9 +42,9 @@ Section: math
 Breaks: kalgebra (<< 4:4.6.1a-0ubuntu2), kalgebra-mobile (<< 4.6.80)
 Replaces: kalgebra (<< 4:4.6.1a-0ubuntu2), kalgebra-mobile (<< 4.6.80)
 Depends: ${shlibs:Depends}, ${misc:Depends},  kalgebra-common (= ${binary:Version})
-Description: algebraic graphing calculator for KDE
+Description: algebraic graphing calculator for KDE mobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language.
+ MathML markup language.  This is the version for KDE mobile
  .
  This package is part of the KDE education module.
 
@@ -65,10 +65,11 @@ Package: kalgebra-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: ${misc:Depends}
-Suggests: kalgebra (= ${binary:Version}), kalgebramobile (= ${binary:Version})
+Depends: ${misc:Depends}, kalgebra (= ${binary:Version})| kalgebramobile (= ${binary:Version})
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for the KDE education module
  This package contains debugging files used to investigate problems with
- binaries included in kalgebra
+ binaries included in kalgebra.
+ .
+ This package is part of the KDE education module.
