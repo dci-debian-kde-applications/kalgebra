@@ -1,20 +1,21 @@
 Source: kalgebra
 Section: kde
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  cmake,
  debhelper (>= 7.3.16),
  pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.6),
+ kdelibs5-dev (>= 4:4.7),
  libreadline-dev,
  pkg-config,
  libqt4-opengl-dev,
  libkdeedu-dev
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kalgebra
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kalgebra
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kalgebra.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kalgebra.git
 
 Package: kalgebra
 Architecture: any

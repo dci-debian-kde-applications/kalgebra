@@ -1,39 +1,5 @@
-kalgebra (4:4.7.2-0ubuntu1) oneiric-proposed; urgency=low
+kalgebra (4:4.7.2-0r0) UNRELEASED; urgency=low
 
-  * New upstream release (LP: #872506)
+  * Initial release. Start from the Ubuntu packaging, thanks!
 
- -- Philip Muškovac <yofel@kubuntu.org>  Mon, 03 Oct 2011 22:52:33 +0200
-
-kalgebra (4:4.7.1-0ubuntu2) oneiric; urgency=low
-
-  * No-change rebuild so translations aren't stripped from .desktop
-    files anymore.
-
- -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 15 Sep 2011 22:52:37 +0200
-
-kalgebra (4:4.7.1-0ubuntu1) oneiric; urgency=low
-
-  [ Jonathan Kolberg ]
-  * New upstream release
-
-  [ Scott Kitterman ]
-  * Make the mobile package descriptions not identical to the regular ones
-  * Improve kalgebra-dbg long descriptions
-  * Fix kalgebra-dbg depends
-
- -- Scott Kitterman <scott@kitterman.com>  Thu, 08 Sep 2011 09:54:16 -0400
-
-kalgebra (4:4.7.0-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-  * Bump breaks/replaces for kalgebramobile to catch natty 4.6.5 packages
-
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 23:52:02 +0200
-
-kalgebra (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream relase candidate
-  * Update packaging for split tarball
-  * Repack source to include COPYING files
-
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 20:10:34 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 18 Oct 2011 01:12:28 +0200
