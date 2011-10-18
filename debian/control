@@ -53,8 +53,10 @@ Description: contains files common for kalgebra and kalgebramobile
  This package is part of the KDE education module.
 
 Package: kalgebra-dev
-Architecture: all
-Depends: ${misc:Depends}
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}, libanalitza4 (= ${binary:Version}),
+ libanalitzagui4 (= ${binary:Version})
 Description: ...
  ...
 
