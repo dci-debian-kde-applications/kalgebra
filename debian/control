@@ -53,6 +53,12 @@ Description: contains files common for kalgebra and kalgebra-mobile
  .
  This package is part of the KDE education module.
 
+Package: kalgebra-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: ...
+ ...
+
 Package: kalgebra-dbg
 Architecture: any
 Section: debug
