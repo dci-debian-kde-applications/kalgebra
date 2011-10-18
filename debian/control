@@ -22,6 +22,7 @@ Package: kalgebra
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra-common (= ${binary:Version})
+Breaks: kalgebramobile (<< 4:4.7.2)
 Description: algebraic graphing calculator for KDE
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
