@@ -31,8 +31,6 @@ Description: algebraic graphing calculator for KDE
 Package: kalgebramobile
 Architecture: any
 Section: math
-Breaks: kalgebra (<< 4:4.6.1a-0ubuntu2)
-Replaces: kalgebra (<< 4:4.6.1a-0ubuntu2)
 Depends: ${shlibs:Depends}, ${misc:Depends},  kalgebra-common (= ${binary:Version})
 Description: algebraic graphing calculator for KDE mobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
@@ -43,8 +41,8 @@ Description: algebraic graphing calculator for KDE mobile
 Package: kalgebra-common
 Architecture: any
 Section: math
-Breaks: kalgebra (<< 4:4.6.1a-0ubuntu2)
-Replaces: kalgebra (<< 4:4.6.1a-0ubuntu2)
+Breaks: kalgebra (<< 4:4.7.2)
+Replaces: kalgebra (<< 4:4.7.2)
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: contains files common for kalgebra and kalgebramobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
