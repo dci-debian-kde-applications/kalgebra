@@ -59,6 +59,22 @@ Depends: ${misc:Depends}
 Description: ...
  ...
 
+Package: libanalitza4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kalgebra (<< 4:4.7.2)
+Replaces: kalgebra (<< 4:4.7.2)
+Description: ...
+ ...
+
+Package: libanalitzagui4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kalgebra (<< 4:4.7.2)
+Replaces: kalgebra (<< 4:4.7.2)
+Description: ...
+ ...
+
 Package: kalgebra-dbg
 Architecture: any
 Section: debug

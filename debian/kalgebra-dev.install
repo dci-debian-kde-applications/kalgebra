@@ -13,3 +13,5 @@ usr/include/analitza/variables.h
 usr/include/analitzagui/algebrahighlighter.h
 usr/include/analitzagui/analitzaguiexport.h
 usr/include/analitzagui/operatorsmodel.h
+usr/lib/libanalitza.so
+usr/lib/libanalitzagui.so
