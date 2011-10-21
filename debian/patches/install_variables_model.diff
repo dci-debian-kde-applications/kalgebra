@@ -1,0 +1,19 @@
+Author: Aleix Pol <aleixpol@kde.org>
+Origin: https://projects.kde.org/projects/kde/kdeedu/kalgebra/repository/revisions/840838ef
+Applied-Upstream: 4.7.3
+Description: Install analitzagui/variablesmodel.h
+ Without this patch wouldn't be possible to build cantor-backend-kalgebra, built
+ in the cantor source package.
+--- a/analitzagui/CMakeLists.txt
++++ b/analitzagui/CMakeLists.txt
+@@ -41,6 +41,7 @@ if(INSTALL_ANALITZA_HEADERS)
+ 		algebrahighlighter.h
+ 		analitzaguiexport.h
+ 		operatorsmodel.h
++		variablesmodel.h
+ 
+                 DESTINATION ${INCLUDE_INSTALL_DIR}/analitzagui/ COMPONENT Devel)
+ endif(INSTALL_ANALITZA_HEADERS)
+-- 
+1.7.7
+

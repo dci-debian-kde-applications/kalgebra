@@ -1,4 +1,3 @@
-analitzagui/variablesmodel.h usr/include/analitzagui/
 usr/include/analitza/abstractlexer.h
 usr/include/analitza/analitzaexport.h
 usr/include/analitza/analitzautils.h
@@ -14,5 +13,7 @@ usr/include/analitza/variables.h
 usr/include/analitzagui/algebrahighlighter.h
 usr/include/analitzagui/analitzaguiexport.h
 usr/include/analitzagui/operatorsmodel.h
+usr/include/analitzagui/variablesmodel.h
 usr/lib/libanalitza.so
 usr/lib/libanalitzagui.so
+usr/share/kde4/apps/cmake/modules/FindAnalitza.cmake
