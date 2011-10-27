@@ -1,0 +1,15 @@
+From: José Manuel Santamaría Lema <panfaust@gmail.com>
+Subject: Use DebianABIManager for this source package. It's Debian-specific.
+Forwarded: not-needed
+
+For more information about DebianABIManager, refer to
+/usr/share/doc/pkg-kde-tools/README.DebianABIManager (pkg-kde-tools (>= 0.12)).
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -48,3 +48,5 @@ if (${CMAKE_CURRENT_SOURCE_DIR} STREQUAL
+    macro_display_feature_log()
+ endif (${CMAKE_CURRENT_SOURCE_DIR} STREQUAL ${CMAKE_SOURCE_DIR})
+ 
++# Add support for DebianABIManager
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
