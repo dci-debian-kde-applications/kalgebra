@@ -8,6 +8,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.3),
  pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.6),
  libreadline-dev,
+ libncurses-dev,
  pkg-config,
  libqt4-opengl-dev,
  libkdeedu-dev

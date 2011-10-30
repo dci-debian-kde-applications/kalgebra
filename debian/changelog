@@ -9,6 +9,7 @@ kalgebra (4:4.7.3-0ubuntu1) UNRELEASED; urgency=low
       kalgebra-common << 4:4.7.3
     - build with -DINSTALL_ANALITZA_HEADERS=TRUE
     - Add kalgebra-dev with analitza headers, needed by cantor
+    - add libncurses-dev to build-deps
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 29 Oct 2011 11:42:28 +0200
 
