@@ -2,7 +2,7 @@ Source: kalgebra
 Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.3),
  cmake,
  debhelper (>= 7.3.16),
  pkg-kde-tools (>= 0.12),
@@ -44,7 +44,7 @@ Replaces: kalgebra (<< 4:4.6.1a-0ubuntu2), kalgebra-mobile (<< 4.6.80)
 Depends: ${shlibs:Depends}, ${misc:Depends},  kalgebra-common (= ${binary:Version})
 Description: algebraic graphing calculator for KDE mobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language.  This is the version for KDE mobile
+ MathML markup language. This is the version for KDE mobile
  .
  This package is part of the KDE education module.
 
@@ -54,10 +54,47 @@ Section: math
 Breaks: kalgebra (<< 4:4.6.1a-0ubuntu2)
 Replaces: kalgebra (<< 4:4.6.1a-0ubuntu2)
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: contains files common for kalgebra and kalgebra-mobile
+Description: contains files common for kalgebra and kalgebramobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language and it contains files needed for both full and mobile
  versions.
+ .
+ This package is part of the KDE education module.
+
+Package: libanalitza4
+X-Debian-ABI: 0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kalgebra-common (<< 4:4.7.3)
+Replaces: kalgebra-common (<< 4:4.7.3)
+Description: library to  work with mathematical expressions
+ This library is used by KAlgebra and may be used by other software to parse and
+ work with mathematical expressions.
+ .
+ This package is part of the KDE education module.
+
+Package: libanalitzagui4
+X-Debian-ABI: 0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kalgebra-common (<< 4:4.7.3)
+Replaces: kalgebra-common (<< 4:4.7.3)
+Description: library to  work with mathematical expressions - GUI routines
+ This library is used by KAlgebra and may be used by other software to parse and
+ work with mathematical expressions. This library provides the routines related
+ to the graphical user interface.
+ .
+ This package is part of the KDE education module.
+
+Package: kalgebra-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}, libanalitza4 (= ${binary:Version}),
+ libanalitzagui4 (= ${binary:Version})
+Description: development files for kalgebra
+ KAlgebra is a algebraic graphing calculator with support for 3D graphing and
+ MathML markup language. This package contains the development files needed to
+ build other software against the KAlgebra libraries.
  .
  This package is part of the KDE education module.
 
