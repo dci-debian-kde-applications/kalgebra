@@ -1,0 +1,43 @@
+Description: Do not unnecessarily link against ncurses
+Author: Colin Watson <cjwatson@ubuntu.com>
+Bug: https://bugs.kde.org/show_bug.cgi?id=286272
+Forwarded: yes
+Last-Update: 2011-11-10
+
+Index: b/calgebra/CMakeLists.txt
+===================================================================
+--- a/calgebra/CMakeLists.txt
++++ b/calgebra/CMakeLists.txt
+@@ -5,7 +5,7 @@
+ )
+ 
+ kde4_add_executable(calgebra ${calgebra_SRCS})
+-target_link_libraries(calgebra ${QT_QTCORE_LIBRARY} ${READLINE_LIBRARY} ${NCURSES_LIBRARY} analitza)
++target_link_libraries(calgebra ${QT_QTCORE_LIBRARY} ${READLINE_LIBRARY} analitza)
+ 
+ install(TARGETS calgebra ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+Index: b/cmake/FindReadline.cmake
+===================================================================
+--- a/cmake/FindReadline.cmake
++++ b/cmake/FindReadline.cmake
+@@ -1,15 +1,14 @@
+ # GNU Readline library finder
+-if(READLINE_INCLUDE_DIR AND READLINE_LIBRARY AND NCURSES_LIBRARY)
++if(READLINE_INCLUDE_DIR AND READLINE_LIBRARY)
+ 	set(READLINE_FOUND TRUE)
+-else(READLINE_INCLUDE_DIR AND READLINE_LIBRARY AND NCURSES_LIBRARY)
++else(READLINE_INCLUDE_DIR AND READLINE_LIBRARY)
+ 	FIND_PATH(READLINE_INCLUDE_DIR readline/readline.h
+ 		/usr/include/readline
+ 	)
+ 	
+ 	FIND_LIBRARY(READLINE_LIBRARY NAMES readline)
+-        FIND_LIBRARY(NCURSES_LIBRARY NAMES ncurses )
+         include(FindPackageHandleStandardArgs)
+-        FIND_PACKAGE_HANDLE_STANDARD_ARGS(Readline DEFAULT_MSG NCURSES_LIBRARY READLINE_INCLUDE_DIR READLINE_LIBRARY )
++        FIND_PACKAGE_HANDLE_STANDARD_ARGS(Readline DEFAULT_MSG READLINE_INCLUDE_DIR READLINE_LIBRARY )
+ 	
+ 	MARK_AS_ADVANCED(READLINE_INCLUDE_DIR READLINE_LIBRARY)
+-endif(READLINE_INCLUDE_DIR AND READLINE_LIBRARY AND NCURSES_LIBRARY)
++endif(READLINE_INCLUDE_DIR AND READLINE_LIBRARY)
