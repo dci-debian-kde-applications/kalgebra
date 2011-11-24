@@ -1,3 +1,20 @@
+kalgebra (4:4.7.3-0ubuntu1) precise; urgency=low
+
+  [ Jonathan Riddell ]
+  * Merge with debian
+
+  [ Colin Watson ]
+  * Add kubuntu_remove_ncurses_requirement.diff remove libncurses
+    requirement.  calgebra only uses symbols from libreadline.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Nov 2011 23:46:55 +0000
+
+kalgebra (4:4.7.2-0r7) UNRELEASED; urgency=low
+
+  * Initial release. Start from the Ubuntu packaging, thanks!
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 18 Oct 2011 01:12:28 +0200
+
 kalgebra (4:4.7.3-0ubuntu1) UNRELEASED; urgency=low
 
   [ Philip Muškovac ]
@@ -12,11 +29,7 @@ kalgebra (4:4.7.3-0ubuntu1) UNRELEASED; urgency=low
     - Add kalgebra-dev with analitza headers, needed by cantor
     - add libncurses-dev to build-deps
 
-  [ Colin Watson ]
-  * Remove libncurses requirement.  calgebra only uses symbols from
-    libreadline.
-
- -- Philip Muškovac <yofel@kubuntu.org>  Sat, 29 Oct 2011 11:42:28 +0200
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 03 Oct 2011 22:52:33 +0200
 
 kalgebra (4:4.7.2-0ubuntu1) oneiric-proposed; urgency=low
 

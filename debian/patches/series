@@ -1,2 +1,2 @@
 enable_debianabimanager.diff
-remove_ncurses_requirement.diff
+kubuntu_remove_ncurses_requirement.diff

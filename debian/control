@@ -2,12 +2,15 @@ Source: kalgebra
 Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.7.3),
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  cmake,
  debhelper (>= 7.3.16),
  pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.6),
+ kdelibs5-dev (>= 4:4.7),
  libreadline-dev,
+ libncurses-dev,
  pkg-config,
  libqt4-opengl-dev,
  libkdeedu-dev
@@ -15,26 +18,19 @@ Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kalgebra
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kalgebra
+X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kalgebra.git
+X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kalgebra.git
 
 Package: kalgebra
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra-common (= ${binary:Version})
+Breaks: kalgebramobile (<< 4:4.7.2)
 Description: algebraic graphing calculator for KDE
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
  .
  This package is part of the KDE education module.
-
-Package: kalgebra-mobile
-Depends: kalgebramobile, ${misc:Depends}
-Architecture: all
-Section: math
-Description: transitional dummy package for kalgebra-mobile
- This is a transitional package for kalgebra-mobile, and can be safely removed
- after the installation is complete.
- .
- This package is part of the KDE education module
 
 Package: kalgebramobile
 Architecture: any
@@ -44,15 +40,15 @@ Replaces: kalgebra (<< 4:4.6.1a-0ubuntu2), kalgebra-mobile (<< 4.6.80)
 Depends: ${shlibs:Depends}, ${misc:Depends},  kalgebra-common (= ${binary:Version})
 Description: algebraic graphing calculator for KDE mobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language. This is the version for KDE mobile
+ MathML markup language. This is the version for KDE mobile.
  .
  This package is part of the KDE education module.
 
 Package: kalgebra-common
 Architecture: any
 Section: math
-Breaks: kalgebra (<< 4:4.6.1a-0ubuntu2)
-Replaces: kalgebra (<< 4:4.6.1a-0ubuntu2)
+Breaks: kalgebra (<< 4:4.7.2)
+Replaces: kalgebra (<< 4:4.7.2)
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: contains files common for kalgebra and kalgebramobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
@@ -77,8 +73,8 @@ Package: libanalitza4
 X-Debian-ABI: 0
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: kalgebra-common (<< 4:4.7.3)
-Replaces: kalgebra-common (<< 4:4.7.3)
+Breaks: kalgebra (<< 4:4.7.2), kalgebra-common (<< 4:4.7.3)
+Replaces: kalgebra (<< 4:4.7.2), kalgebra-common (<< 4:4.7.3)
 Description: library to  work with mathematical expressions
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions.
@@ -89,8 +85,8 @@ Package: libanalitzagui4
 X-Debian-ABI: 0
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: kalgebra-common (<< 4:4.7.3)
-Replaces: kalgebra-common (<< 4:4.7.3)
+Breaks: kalgebra (<< 4:4.7.2), kalgebra-common (<< 4:4.7.3)
+Replaces: kalgebra (<< 4:4.7.2), kalgebra-common (<< 4:4.7.3)
 Description: library to  work with mathematical expressions - GUI routines
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions. This library provides the routines related
@@ -102,7 +98,9 @@ Package: kalgebra-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: ${misc:Depends}, kalgebra (= ${binary:Version})| kalgebramobile (= ${binary:Version})
+Depends: ${misc:Depends},
+ kalgebra (= ${binary:Version}) | kalgebramobile (= ${binary:Version}),
+ libanalitza4 (= ${binary:Version}), libanalitzagui4 (= ${binary:Version})
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for the KDE education module
