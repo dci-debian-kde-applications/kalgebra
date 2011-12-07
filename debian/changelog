@@ -4,6 +4,9 @@ kalgebra (4:4.7.4-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.2.
+  * Remove patches:
+   - add_findanalitza.diff, applied upstream.
+   - install_variables_model.diff, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 23:16:28 +0100
 
