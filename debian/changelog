@@ -1,4 +1,4 @@
-kalgebra (4:4.7.4-0r1) UNRELEASED; urgency=low
+kalgebra (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -9,7 +9,7 @@ kalgebra (4:4.7.4-0r1) UNRELEASED; urgency=low
    - install_variables_model.diff, applied upstream.
   * Confirm symbols files on more architectures with 4.7.2 build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 23:16:28 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 00:52:42 +0100
 
 kalgebra (4:4.7.2-1) experimental; urgency=low
 
