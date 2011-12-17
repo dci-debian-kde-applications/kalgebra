@@ -7,6 +7,7 @@ kalgebra (4:4.7.4-0r1) UNRELEASED; urgency=low
   * Remove patches:
    - add_findanalitza.diff, applied upstream.
    - install_variables_model.diff, applied upstream.
+  * Confirm symbols files on more architectures with 4.7.2 build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 23:16:28 +0100
 
