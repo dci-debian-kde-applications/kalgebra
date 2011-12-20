@@ -1,3 +1,11 @@
+kalgebra (4:4.7.90-0ubuntu3) precise; urgency=low
+
+  * new upstream beta release
+  * Remove enable_debianabimanager.diff now in analitza
+  * Add analitza-dev build-dep
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Dec 2011 14:17:54 +0000
+
 kalgebra (4:4.7.3-0ubuntu1) precise; urgency=low
 
   [ Jonathan Riddell ]
