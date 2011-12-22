@@ -1,3 +1,9 @@
+kalgebra (4:4.7.90-0ubuntu4) UNRELEASED; urgency=low
+
+  * Drop libanalitza4 and libanalitzagui4 from kalgebra-dbg dependencies.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Thu, 22 Dec 2011 14:30:48 +0100
+
 kalgebra (4:4.7.90-0ubuntu3) precise; urgency=low
 
   * new upstream beta release
