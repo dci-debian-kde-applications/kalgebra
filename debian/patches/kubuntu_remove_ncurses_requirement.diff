@@ -4,23 +4,10 @@ Bug: https://bugs.kde.org/show_bug.cgi?id=286272
 Forwarded: yes
 Last-Update: 2011-11-10
 
-Index: b/calgebra/CMakeLists.txt
+Index: kalgebra-4.7.97/cmake/FindReadline.cmake
 ===================================================================
---- a/calgebra/CMakeLists.txt
-+++ b/calgebra/CMakeLists.txt
-@@ -5,7 +5,7 @@
- )
- 
- kde4_add_executable(calgebra ${calgebra_SRCS})
--target_link_libraries(calgebra ${QT_QTCORE_LIBRARY} ${READLINE_LIBRARY} ${NCURSES_LIBRARY} analitza)
-+target_link_libraries(calgebra ${QT_QTCORE_LIBRARY} ${READLINE_LIBRARY} analitza)
- 
- install(TARGETS calgebra ${INSTALL_TARGETS_DEFAULT_ARGS})
- 
-Index: b/cmake/FindReadline.cmake
-===================================================================
---- a/cmake/FindReadline.cmake
-+++ b/cmake/FindReadline.cmake
+--- kalgebra-4.7.97.orig/cmake/FindReadline.cmake	2011-07-27 18:37:55.000000000 +0000
++++ kalgebra-4.7.97/cmake/FindReadline.cmake	2012-01-05 13:29:05.000000000 +0000
 @@ -1,15 +1,14 @@
  # GNU Readline library finder
 -if(READLINE_INCLUDE_DIR AND READLINE_LIBRARY AND NCURSES_LIBRARY)

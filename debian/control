@@ -12,7 +12,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.95),
  pkg-config,
  libqt4-opengl-dev,
  libkdeedu-dev,
- analitza-dev
+ analitza-dev,
+ kdelibs5-experimental-dev
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kalgebra
