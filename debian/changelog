@@ -1,4 +1,4 @@
-kalgebra (4:4.7.97-0ubuntu1~ppa1) precise; urgency=low
+kalgebra (4:4.7.97-0ubuntu1) precise; urgency=low
 
   * New upstream release candidate
   * Add build-dep on kdelibs5-experimental-dev
