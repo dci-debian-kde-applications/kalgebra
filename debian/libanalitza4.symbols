@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 libanalitza.so.4 libanalitza4 #MINVER#
  ABI_4_0@ABI_4_0 4:4.7.2
  _ZN13AbstractLexer11m_operatorsE@ABI_4_0 4:4.7.2
@@ -165,12 +165,12 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza8Analyzer14initBVarsRangeEPKNS_5ApplyEiPNS_6ObjectES5_@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer14insertVariableERK7QStringPKNS_6ObjectE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer14insertVariableERK7QStringRKNS_10ExpressionE@ABI_4_0 4:4.7.2
- (optional=templinst|arch=mips s390 sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_4ListEN5QListIPNS_6ObjectEE8iteratorEEEvPT_@ABI_4_0 4:4.7.2
- (optional=templinst|arch=mips s390 sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_6VectorEPPNS_6ObjectEEEvPT_@ABI_4_0 4:4.7.2
- (optional=templinst|arch=mips s390 sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_9ContainerEN5QListIPNS_6ObjectEE8iteratorEEEvPT_@ABI_4_0 4:4.7.2
+ (optional=templinst|arch=mips mipsel s390 s390x sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_4ListEN5QListIPNS_6ObjectEE8iteratorEEEvPT_@ABI_4_0 4:4.7.2
+ (optional=templinst|arch=mips mipsel s390 s390x sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_6VectorEPPNS_6ObjectEEEvPT_@ABI_4_0 4:4.7.2
+ (optional=templinst|arch=mips mipsel s390 s390x sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_9ContainerEN5QListIPNS_6ObjectEE8iteratorEEEvPT_@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer15alphaConversionEPNS_5ApplyEi@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer15alphaConversionEPNS_9ContainerEi@ABI_4_0 4:4.7.2
- (optional=templinst|arch=mips sparc)_ZN8Analitza8Analyzer15alphaConversionINS_6VectorEPPNS_6ObjectEEEvPT_i@ABI_4_0 4:4.7.2
+ (optional=templinst|arch=mips mipsel s390x sparc)_ZN8Analitza8Analyzer15alphaConversionINS_6VectorEPPNS_6ObjectEEEvPT_i@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer15calculateLambdaEv@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer15initializeBVarsEPKNS_5ApplyEi@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer15simpPolynomialsEPNS_5ApplyE@ABI_4_0 4:4.7.2
