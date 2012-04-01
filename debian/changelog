@@ -1,3 +1,9 @@
+kalgebra (4:4.8.2-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 01 Apr 2012 21:13:54 +0200
+
 kalgebra (4:4.8.1-0ubuntu1) precise; urgency=low
 
   * New upstream release 
