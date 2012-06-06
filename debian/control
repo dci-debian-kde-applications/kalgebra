@@ -13,7 +13,6 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.3),
  libqt4-opengl-dev,
  libkdeedu-dev,
  analitza-dev,
- kdelibs5-experimental-dev,
  libssl-dev
 Standards-Version: 3.9.3
 Homepage: http://edu.kde.org/
