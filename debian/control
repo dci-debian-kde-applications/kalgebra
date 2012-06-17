@@ -64,38 +64,13 @@ Description: development files for kalgebra
  .
  This package is part of the KDE education module.
 
-Package: libanalitza4
-X-Debian-ABI: 0
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: kalgebra (<< 4:4.7.2)
-Replaces: kalgebra (<< 4:4.7.2)
-Description: library to  work with mathematical expressions
- This library is used by KAlgebra and may be used by other software to parse and
- work with mathematical expressions.
- .
- This package is part of the KDE education module.
-
-Package: libanalitzagui4
-X-Debian-ABI: 0
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: kalgebra (<< 4:4.7.2)
-Replaces: kalgebra (<< 4:4.7.2)
-Description: library to  work with mathematical expressions - GUI routines
- This library is used by KAlgebra and may be used by other software to parse and
- work with mathematical expressions. This library provides the routines related
- to the graphical user interface.
- .
- This package is part of the KDE education module.
-
 Package: kalgebra-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends: ${misc:Depends},
  kalgebra (= ${binary:Version}) | kalgebramobile (= ${binary:Version}),
- libanalitza4 (= ${binary:Version}), libanalitzagui4 (= ${binary:Version})
+Recommends: libanalitza-dbg
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for the KDE education module
