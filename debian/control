@@ -48,18 +48,6 @@ Description: contains files common for kalgebra and kalgebramobile
  .
  This package is part of the KDE education module.
 
-Package: kalgebra-dev
-Architecture: any
-Section: libdevel
-Depends: ${misc:Depends}, libanalitza4 (= ${binary:Version}),
- libanalitzagui4 (= ${binary:Version})
-Description: development files for kalgebra
- KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language. This package contains the development files needed to
- build other software against the KAlgebra libraries.
- .
- This package is part of the KDE education module.
-
 Package: kalgebra-dbg
 Architecture: any
 Section: debug

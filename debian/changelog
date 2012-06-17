@@ -6,7 +6,7 @@ kalgebra (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Split analitza out of kalgebra:
     - drop enable_debianabimanager.diff, no longer needed since kalgebra doesn't
       provide any dynamic library now.
-    - remove libanalitza4 and libanalitzagui4 binary packages.
+    - remove libanalitza4, libanalitzagui4 and kalgebra-dev binary packages.
   * Bump build dependencies for KDE SC 4.8.4:
     - kde-sc-dev-latest to 4:4.8.4.
     - kdelibs5-dev to 4:4.8.
