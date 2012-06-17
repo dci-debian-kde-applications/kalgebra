@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), pkg-config,
- kdelibs5-dev (>= 4:4.8), libkdeedu-dev (>= 4:4.8),
+ kdelibs5-dev (>= 4:4.8), libkdeedu-dev (>= 4:4.8), libanalitza-dev (>= 4:4.8),
  libreadline-dev,
  libncurses-dev,
  libqt4-opengl-dev
