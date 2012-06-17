@@ -12,6 +12,7 @@ kalgebra (4:4.8.4-0r0) UNRELEASED; urgency=low
     - don't pass -c0 to dh_shlibdeps.
     - remove override_dh_shlibdeps, no longer needed.
     - remove calgebra from kalgebra-common, now provided by src:analitza. 
+    - drop libreadline-dev and libncurses-dev, only used by analitza.
   * Bump build dependencies for KDE SC 4.8.4:
     - kde-sc-dev-latest to 4:4.8.4.
     - kdelibs5-dev to 4:4.8.
