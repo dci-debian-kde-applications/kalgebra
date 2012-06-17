@@ -20,6 +20,7 @@ kalgebra (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Add watch file.
+  * Update copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2012 03:12:19 +0200
 
