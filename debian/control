@@ -4,15 +4,11 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
- cmake,
- debhelper (>= 7.3.16),
- pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.7),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), pkg-config,
+ kdelibs5-dev (>= 4:4.7), libkdeedu-dev,
  libreadline-dev,
  libncurses-dev,
- pkg-config,
- libqt4-opengl-dev,
- libkdeedu-dev
+ libqt4-opengl-dev
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kalgebra.git
