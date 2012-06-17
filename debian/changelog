@@ -3,6 +3,9 @@ kalgebra (4:4.8.4-0r0) UNRELEASED; urgency=low
   * New upstream release.
 
   [ José Manuel Santamaría Lema ]
+  * Split analitza out of kalgebra:
+    - drop enable_debianabimanager.diff, no longer needed since kalgebra doesn't
+      provide any dynamic library now.
   * Add watch file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2012 03:12:19 +0200
