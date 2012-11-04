@@ -8,10 +8,10 @@ Build-Depends:
  cmake,
  debhelper (>= 7.3.16),
  pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.9.2),
+ kdelibs5-dev (>= 4:4.9.3),
  pkg-config,
  libqt4-opengl-dev,
- libkdeedu-dev (>= 4:4.9.2),
+ libkdeedu-dev (>= 4:4.9.3),
  analitza-dev,
  libssl-dev
 Standards-Version: 3.9.3
