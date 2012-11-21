@@ -9,3 +9,8 @@ usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
 usr/share/kde4/apps/katepart/syntax/kalgebra.xml
 usr/share/kde4/services/kalgebraplasmoid.desktop
 usr/share/kde4/apps/kalgebramobile/plugins
+usr/lib/kde4/imports/org/kde/analitza/Graph2D.qml
+usr/share/kde4/apps/plasma/plasmoids/org.kde.graphsplasmoid/contents/ui/config.ui
+usr/share/kde4/apps/plasma/plasmoids/org.kde.graphsplasmoid/contents/ui/main.qml
+usr/share/kde4/apps/plasma/plasmoids/org.kde.graphsplasmoid/metadata.desktop
+usr/share/kde4/services/graphsplasmoid.desktop

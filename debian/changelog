@@ -1,7 +1,7 @@
 kalgebra (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
 
   * New upstream beta release
-  * New upstream beta release
+  * Update .install files
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 15:43:47 +0000
 
