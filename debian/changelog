@@ -1,3 +1,10 @@
+kalgebra (4:4.9.80-0ubuntu2) raring; urgency=low
+
+  * Set minimum build-depends verion on analitza-dev to 4:4.9.80 as it needs
+    the newer version of the library
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 22 Nov 2012 11:38:25 -0500
+
 kalgebra (4:4.9.80-0ubuntu1) raring; urgency=low
 
   * New upstream beta release

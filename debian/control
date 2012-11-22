@@ -12,7 +12,7 @@ Build-Depends:
  pkg-config,
  libqt4-opengl-dev,
  libkdeedu-dev (>= 4:4.9.80),
- analitza-dev,
+ analitza-dev (>= 4:4.9.80),
  libssl-dev
 Standards-Version: 3.9.3
 Homepage: http://edu.kde.org/
