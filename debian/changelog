@@ -1,8 +1,8 @@
-kalgebra (4:4.9.90-0ubuntu1) UNRELEASED; urgency=low
+kalgebra (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
 
   * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Dec 2012 11:13:34 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:36:32 +0000
 
 kalgebra (4:4.9.80-0ubuntu2) raring; urgency=low
 
