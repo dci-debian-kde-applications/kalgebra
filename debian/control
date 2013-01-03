@@ -11,7 +11,7 @@ Build-Depends:
  kdelibs5-dev (>= 4:4.9.97),
  pkg-config,
  libqt4-opengl-dev,
- libkdeedu-dev (>= 4:4.9.95),
+ libkdeedu-dev (>= 4:4.9.97),
  analitza-dev (>= 4:4.9.80),
  libssl-dev
 Standards-Version: 3.9.3
