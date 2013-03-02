@@ -1,28 +1,26 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=174
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Comment: This package was developed for Ubuntu by the Kubuntu Developers and
  modified to be included in Debian. See below the copyright holders for debian/*
  files.
 
 Files: *
-Copyright: 2007-2011 by Aleix Pol <aleixpol@kde.org>
-           2010 by Percy Camilo T. Aucahuasi <percy.camilo.ta@gmail.com>
+Copyright: 2007-2012 by Aleix Pol <aleixpol@kde.org>
 License: GPL-2+
 
-Files: analitza/analitzaexport.h analitza/pushvalue.h
-Copyright: 2006 Matt Rogers <mattr@kde.org>
-           2004 Jaroslaw Staniek <js@iidea.pl>
-           2007-2008 David Nolden <david.nolden.kdevelop@art-master.de>
-License: LGPL-2
+Files: plasmoids/graphsplasmoid/contents/ui/main.qml
+Copyright: 2012 Aleix Pol Gonzalez <aleixpol@kde.org>
+License: LGPL-2+
 
 Files: debian/*
-Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
+Copyright: 2011-2013 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
 License: GPL-2+
 
 Files: doc/*
 Copyright: 2007 Aleix Pol
 License: GFDL-1.2
 
-Files: cmake/FindReadline.cmake
+Files: cmake/*
+Copyright: 2011, Aleix Pol Gonzalez <aleixpol@kde.org>
 License: BSD-3-clause
 
 License: GPL-2+
@@ -44,10 +42,11 @@ License: GPL-2+
  version 2 can be found in the file
  `/usr/share/common-licenses/GPL-2'.
 
-License: LGPL-2
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License version 2 as published by the Free Software Foundation.
+License: LGPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2 or
+ (at your option) any later version.
  .
  This library is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
