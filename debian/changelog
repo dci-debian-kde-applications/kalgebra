@@ -1,11 +1,11 @@
-kalgebra (4:4.10.2-1) UNRELEASED; urgency=low
+kalgebra (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
   * Bump stuff to 4.10
   * Update uploaders
   * Update install-files
 
- -- Sune Vuorela <sune@debian.org>  Sat, 06 Apr 2013 10:28:19 +0000
+ -- Sune Vuorela <sune@debian.org>  Sat, 06 Apr 2013 10:41:43 +0000
 
 kalgebra (4:4.8.4-1) unstable; urgency=low
 
