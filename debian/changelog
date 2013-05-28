@@ -1,3 +1,20 @@
+kalgebra (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian, no changes
+  * Drop kubuntu_remove_ncurses_requirement.diff now implemented upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 May 2013 11:04:26 +0000
+
+kalgebra (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Bump stuff to 4.10
+  * Update uploaders
+  * Update install-files
+
+ -- Sune Vuorela <sune@debian.org>  Sat, 06 Apr 2013 10:41:43 +0000
+
 kalgebra (4:4.10.2-0ubuntu1) raring; urgency=low
 
   * New upstream bugfix release
@@ -92,6 +109,35 @@ kalgebra (4:4.8.80-0ubuntu1) quantal; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 06 Jun 2012 13:38:31 +0100
 
+kalgebra (4:4.8.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Split analitza out of kalgebra:
+    - drop enable_debianabimanager.diff, no longer needed since kalgebra doesn't
+      provide any dynamic library now.
+    - remove libanalitza4, libanalitzagui4 and kalgebra-dev binary packages.
+    - build depend on libanalitza-dev.
+    - don't pass -DINSTALL_ANALITZA_HEADERS=TRUE to cmake.
+    - don't pass -c0 to dh_shlibdeps.
+    - remove override_dh_shlibdeps, no longer needed.
+    - remove calgebra from kalgebra-common, now provided by src:analitza. 
+    - drop libreadline-dev and libncurses-dev, only used by analitza.
+  * Bump build dependencies for KDE SC 4.8.4:
+    - kde-sc-dev-latest to 4:4.8.4.
+    - kdelibs5-dev to 4:4.8.
+    - libkdeedu-dev to 4:4.8.
+  * Update installed files.
+  * Bump Standards-Version to 3.9.3, no changes needed.
+  * Add watch file.
+  * Update copyright file.
+
+  [ Sune Vuorela ]
+  * Update descriptions
+
+ -- Sune Vuorela <sune@debian.org>  Fri, 22 Jun 2012 09:43:31 +0200
+
 kalgebra (4:4.8.3-0ubuntu1) quantal; urgency=low
 
   * New upstream release
@@ -144,6 +190,28 @@ kalgebra (4:4.7.90-0ubuntu3) precise; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Dec 2011 14:17:54 +0000
 
+kalgebra (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on all architectures.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 07 Mar 2012 10:20:49 +0100
+
+kalgebra (4:4.7.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.2.
+  * Remove patches:
+   - add_findanalitza.diff, applied upstream.
+   - install_variables_model.diff, applied upstream.
+  * Confirm symbols files on more architectures with 4.7.2 build logs.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 00:52:42 +0100
+
 kalgebra (4:4.7.3-0ubuntu1) precise; urgency=low
 
   [ Jonathan Riddell ]
@@ -154,6 +222,13 @@ kalgebra (4:4.7.3-0ubuntu1) precise; urgency=low
     requirement.  calgebra only uses symbols from libreadline.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Nov 2011 23:46:55 +0000
+
+kalgebra (4:4.7.2-1) experimental; urgency=low
+
+  [ José Manuel Santamaría Lema ]
+  * Initial release. Start from the Ubuntu packaging, thanks!
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:03 -0300
 
 kalgebra (4:4.7.2-0r7) raring; urgency=low
 
@@ -216,3 +291,4 @@ kalgebra (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
   * Repack source to include COPYING files
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 20:10:34 +0200
+

@@ -3,17 +3,11 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
-Build-Depends: 
- cmake,
- debhelper (>= 7.3.16),
- pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.10.2),
- pkg-config,
- libqt4-opengl-dev,
- libkdeedu-dev (>= 4:4.10.2),
- analitza-dev (>= 4:4.10.2),
- libssl-dev
+Uploaders: Sune Vuorela <sune@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), pkg-config,
+ kdelibs5-dev (>= 4:4.10), libkdeedu-dev (>= 4:4.10), libanalitza-dev (>= 4:4.10),
+ libqt4-opengl-dev
 Standards-Version: 3.9.3
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kalgebra
@@ -26,7 +20,7 @@ Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra-common (= ${binary:Version})
 Breaks: kalgebramobile (<< 4:4.7.2)
-Description: algebraic graphing calculator for KDE
+Description: algebraic graphing calculator
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
  .
@@ -35,12 +29,10 @@ Description: algebraic graphing calculator for KDE
 Package: kalgebramobile
 Architecture: any
 Section: math
-Breaks: kalgebra (<< 4:4.6.1a-0ubuntu2), kalgebra-mobile (<< 4.6.80)
-Replaces: kalgebra (<< 4:4.6.1a-0ubuntu2), kalgebra-mobile (<< 4.6.80)
 Depends: ${shlibs:Depends}, ${misc:Depends},  kalgebra-common (= ${binary:Version})
-Description: algebraic graphing calculator for KDE mobile
+Description: algebraic graphing calculator for small touch based interfaces
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language. This is the version for KDE mobile.
+ MathML markup language. This is the version for small touch based interfaces
  .
  This package is part of the KDE education module.
 
@@ -62,7 +54,8 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends: ${misc:Depends},
- kalgebra (= ${binary:Version}) | kalgebramobile (= ${binary:Version})
+ kalgebra (= ${binary:Version}) | kalgebramobile (= ${binary:Version}),
+Recommends: libanalitza-dbg
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for the KDE education module
