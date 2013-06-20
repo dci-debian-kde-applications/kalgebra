@@ -1,4 +1,4 @@
-kalgebra (4:4.10.80-0ubuntu1) UNRELEASED; urgency=low
+kalgebra (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   [ Rohan Garg ]
   * New upstream release
@@ -6,7 +6,7 @@ kalgebra (4:4.10.80-0ubuntu1) UNRELEASED; urgency=low
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Jun 2013 23:49:01 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 00:46:54 +0100
 
 kalgebra (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
 
