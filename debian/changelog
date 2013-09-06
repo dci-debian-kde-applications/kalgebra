@@ -1,8 +1,8 @@
-kalgebra (4:4.11.1-0ubuntu1) UNRELEASED; urgency=low
+kalgebra (4:4.11.1-0ubuntu1) saucy; urgency=low
 
   * New upstream bugfix release.
 
- -- Howard Chan <smartboyhw@gmail.com>  Fri, 30 Aug 2013 20:24:49 +0800
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 06 Sep 2013 22:05:52 +0100
 
 kalgebra (4:4.11.0-0ubuntu1) saucy; urgency=low
 
