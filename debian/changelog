@@ -1,9 +1,9 @@
-kalgebra (4:4.11.80-0ubuntu1) UNRELEASED; urgency=low
+kalgebra (4:4.11.80-0ubuntu1) trusty; urgency=low
 
   * New upstream beta release
   * Build-depend on libqtwebkit-dev
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 08 Nov 2013 16:44:53 +0100
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:27:22 +0100
 
 kalgebra (4:4.11.2-0ubuntu1) saucy; urgency=low
 
