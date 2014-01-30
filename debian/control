@@ -2,13 +2,16 @@ Source: kalgebra
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12), pkg-config,
- kdelibs5-dev (>= 4:4.11), libkdeedu-dev (>= 4:4.11),
- libanalitza-dev (>= 4:4.11),
- libqt4-opengl-dev
+Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libanalitza-dev (>= 4:4.11),
+               libkdeedu-dev (>= 4:4.11),
+               libqt4-opengl-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kalgebra.git
@@ -17,7 +20,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kalgebra.git
 Package: kalgebra
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra-common (= ${binary:Version})
+Depends: kalgebra-common (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: kalgebramobile (<< 4:4.7.2)
 Description: algebraic graphing calculator
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
@@ -28,7 +33,9 @@ Description: algebraic graphing calculator
 Package: kalgebramobile
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends},  kalgebra-common (= ${binary:Version})
+Depends: kalgebra-common (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: algebraic graphing calculator for small touch based interfaces
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language. This is the version for small touch based interfaces
@@ -40,7 +47,7 @@ Architecture: any
 Section: math
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: contains files common for kalgebra and kalgebramobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language and it contains files needed for both full and mobile
@@ -52,8 +59,8 @@ Package: kalgebra-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: ${misc:Depends},
- kalgebra (= ${binary:Version}) | kalgebramobile (= ${binary:Version}),
+Depends: kalgebra (= ${binary:Version}) | kalgebramobile (= ${binary:Version}),
+         ${misc:Depends}
 Recommends: libanalitza-dbg
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
