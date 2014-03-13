@@ -6,7 +6,7 @@ XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.
 Uploaders: Sune Vuorela <sune@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), pkg-config,
- kdelibs5-dev (>= 4:4.12.80), libkdeedu-dev (>= 4:4.12.80), libanalitza-dev (>= 4:4.12.80),
+ kdelibs5-dev (>= 4:4.12.90), libkdeedu-dev (>= 4:4.12.90), libanalitza-dev (>= 4:4.12.90),
  libqt4-opengl-dev, libqtwebkit-dev
 Standards-Version: 3.9.3
 Homepage: http://edu.kde.org/
