@@ -1,6 +1,12 @@
 kalgebra (4:4.12.90-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Cherry pick fb5fd9a83e0e648736d0f7d8c4a99dce6da4a78b as
+    upstream_don-t-require-qtmathml-anymore.diff to make kalgebra
+    build again
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Mar 2014 23:42:52 +0000
 

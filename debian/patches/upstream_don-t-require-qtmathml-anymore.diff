@@ -1,0 +1,30 @@
+From fb5fd9a83e0e648736d0f7d8c4a99dce6da4a78b Mon Sep 17 00:00:00 2001
+From: Aleix Pol <aleixpol@kde.org>
+Date: Fri, 14 Mar 2014 17:33:24 +0100
+Subject: [PATCH] Don't require QtMathML anymore
+
+---
+ CMakeLists.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 2c6ee32..ad68e08 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -21,11 +21,11 @@ add_definitions (-DQT_USE_FAST_CONCATENATION -DQT_USE_FAST_OPERATOR_PLUS)
+ 
+ set(MOBILE_BACKEND "kde" CACHE STRING "Backend to install, currently. Check /mobile/plugins/widgets/*")
+ 
+-if(QTMML_LIBRARY AND NOT MOBILE_BACKEND STREQUAL "harmattan")
++if(NOT MOBILE_BACKEND STREQUAL "harmattan")
+   add_subdirectory(doc)
+   add_subdirectory(src)
+   add_subdirectory(plasmoids)
+-endif(QTMML_LIBRARY AND NOT MOBILE_BACKEND STREQUAL "harmattan")
++endif(NOT MOBILE_BACKEND STREQUAL "harmattan")
+ add_subdirectory(icons)
+ add_subdirectory(utils)
+ 
+-- 
+1.9.0
+
