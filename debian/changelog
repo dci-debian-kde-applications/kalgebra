@@ -1,3 +1,9 @@
+kalgebra (4:4.12.97-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Mar 2014 01:26:40 +0100
+
 kalgebra (4:4.12.95-0ubuntu1) trusty; urgency=medium
 
   [ Rohan Garg ]
