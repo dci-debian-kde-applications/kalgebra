@@ -1,6 +1,7 @@
 kalgebra (4:4.13.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update build-dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 19 May 2014 17:25:58 +0200
 
