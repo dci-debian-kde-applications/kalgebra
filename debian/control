@@ -2,6 +2,7 @@ Source: kalgebra
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
@@ -16,6 +17,8 @@ Standards-Version: 3.9.5
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kalgebra.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kalgebra.git
+X-Ubuntu-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kalgebra
+X-Ubuntu-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kalgebra
 
 Package: kalgebra
 Architecture: any
