@@ -1,8 +1,8 @@
-kalgebra (4:4.13.3-1) UNRELEASED; urgency=medium
+kalgebra (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:18:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 29 Jul 2014 11:11:11 +0200
 
 kalgebra (4:4.13.2-0ubuntu1) utopic; urgency=medium
 
