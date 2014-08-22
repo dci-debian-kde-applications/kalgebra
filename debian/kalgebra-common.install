@@ -1,4 +1,5 @@
 usr/lib/kde4/plasma_applet_kalgebra.so
+usr/share/appdata/kalgebra.appdata.xml
 usr/share/doc/kde/HTML/en/kalgebra/
 usr/share/icons/hicolor/128x128/apps/kalgebra.png
 usr/share/icons/hicolor/16x16/apps/kalgebra.png
