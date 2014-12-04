@@ -1,3 +1,11 @@
+kalgebra (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Update build-deps for Qt 5 port
+  * in debian/rules to pkg-kde version 3
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 14:44:04 +0100
+
 kalgebra (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).

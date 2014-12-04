@@ -1,11 +1,13 @@
-usr/lib/kde4/plasma_applet_kalgebra.so
 usr/share/appdata/kalgebra.appdata.xml
-usr/share/doc/kde/HTML/en/kalgebra/
+usr/share/doc/HTML/en/kalgebra/
 usr/share/icons/hicolor/128x128/apps/kalgebra.png
 usr/share/icons/hicolor/16x16/apps/kalgebra.png
 usr/share/icons/hicolor/32x32/apps/kalgebra.png
 usr/share/icons/hicolor/48x48/apps/kalgebra.png
 usr/share/icons/hicolor/64x64/apps/kalgebra.png
 usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
-usr/share/kde4/apps/katepart/syntax/kalgebra.xml
-usr/share/kde4/services/kalgebraplasmoid.desktop
+usr/share/katepart/syntax/kalgebra.xml
+usr/share/kservices5/graphsplasmoid.desktop
+usr/share/plasma/plasmoids/org.kde.graphsplasmoid/contents/ui/config.ui
+usr/share/plasma/plasmoids/org.kde.graphsplasmoid/contents/ui/main.qml
+usr/share/plasma/plasmoids/org.kde.graphsplasmoid/metadata.desktop
