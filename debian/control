@@ -2,7 +2,6 @@ Source: kalgebra
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
