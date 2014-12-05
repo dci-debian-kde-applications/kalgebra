@@ -1,15 +1,11 @@
-kalgebra (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+kalgebra (4:14.11.97-0ubuntu1~ubuntu15.04~ppa4) vivid; urgency=medium
 
-  [ Jonathan Riddell ]
   * New upstream release
   * Update build-deps for Qt 5 port
   * in debian/rules to pkg-kde version 3
+  * PPA build
 
-  [ Harald Sitter ]
-  * Lintian override missing manpages as those ought to be written upstream
-    or not at all.
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 14:44:04 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 18:41:41 +0100
 
 kalgebra (4:4.14.2-1) unstable; urgency=medium
 
