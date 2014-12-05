@@ -1,8 +1,13 @@
 kalgebra (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
   * Update build-deps for Qt 5 port
   * in debian/rules to pkg-kde version 3
+
+  [ Harald Sitter ]
+  * Lintian override missing manpages as those ought to be written upstream
+    or not at all.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 14:44:04 +0100
 
