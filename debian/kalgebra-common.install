@@ -6,7 +6,7 @@ usr/share/icons/hicolor/32x32/apps/kalgebra.png
 usr/share/icons/hicolor/48x48/apps/kalgebra.png
 usr/share/icons/hicolor/64x64/apps/kalgebra.png
 usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
-usr/share/katepart/syntax/kalgebra.xml
+usr/share/katepart5/syntax/kalgebra.xml
 usr/share/kservices5/graphsplasmoid.desktop
 usr/share/plasma/plasmoids/org.kde.graphsplasmoid/contents/ui/config.ui
 usr/share/plasma/plasmoids/org.kde.graphsplasmoid/contents/ui/main.qml
