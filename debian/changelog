@@ -1,4 +1,4 @@
-kalgebra (4:14.12.2-1~) UNRELEASED; urgency=medium
+kalgebra (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
   * Bump Standards-Version to 3.9.6, no changes needed.
@@ -6,7 +6,7 @@ kalgebra (4:14.12.2-1~) UNRELEASED; urgency=medium
     follow cmake.
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Feb 2015 12:13:33 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Feb 2015 13:41:43 +0100
 
 kalgebra (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
