@@ -2,14 +2,13 @@ Source: kalgebra
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
                kdoctools-dev,
                kio-dev,
-               libanalitza-dev (>= 4:14.11),
+               libanalitza-dev (>= 4:14.12.3),
                libncurses5-dev,
                libqt5opengl5-dev,
                libqt5svg5-dev,
