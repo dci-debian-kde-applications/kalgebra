@@ -1,7 +1,11 @@
-kalgebra (4:15.04.1-1~) UNRELEASED; urgency=medium
+kalgebra (4:15.04.3-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
+
+  [ Jeremy Lainé ]
+  * New upstream release (15.04.3).
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 14:13:29 +0200
 
