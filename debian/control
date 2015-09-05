@@ -8,7 +8,7 @@ Build-Depends: cmake (>= 2.8.11),
                extra-cmake-modules (>= 1.7.0~),
                kdoctools-dev,
                kio-dev,
-               libanalitza-dev (>= 4:14.12.2),
+               libanalitza-dev (>= 4:15.04.2),
                libkf5configwidgets-dev (>= 5),
                libkf5i18n-dev (>= 5),
                libkf5widgetsaddons-dev (>= 5),
@@ -45,6 +45,7 @@ Package: kalgebramobile
 Architecture: any
 Section: math
 Depends: kalgebra-common (= ${binary:Version}),
+         plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: algebraic graphing calculator for small touch based interfaces
@@ -58,7 +59,10 @@ Architecture: any
 Section: math
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: plasma-framework,
+         qml-module-org-kde-analitza,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: contains files common for kalgebra and kalgebramobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language and it contains files needed for both full and mobile

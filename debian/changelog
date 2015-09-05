@@ -10,6 +10,31 @@ kalgebra (4:15.08.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 22:44:38 +0200
 
+kalgebra (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:06:31 +0100
+
+kalgebra (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:31:34 +0100
+
+kalgebra (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * New upstream release
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:34:31 +0200
+
 kalgebra (4:14.12.3-1) experimental; urgency=medium
 
   * New upstream release (14.12.3).

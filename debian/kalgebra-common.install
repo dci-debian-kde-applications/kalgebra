@@ -1,6 +1,6 @@
 usr/share/appdata/kalgebra.appdata.xml
 usr/share/doc/HTML/*/kalgebra/
 usr/share/icons/*/*/apps/kalgebra.*
-usr/share/katepart/syntax/kalgebra.xml
+usr/share/katepart5/syntax/kalgebra.xml
 usr/share/kservices5/graphsplasmoid.desktop
 usr/share/plasma/plasmoids/org.kde.graphsplasmoid/
