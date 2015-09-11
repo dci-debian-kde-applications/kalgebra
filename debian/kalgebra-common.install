@@ -1,9 +1,5 @@
 usr/share/appdata/kalgebra.appdata.xml
 usr/share/doc/HTML/en/kalgebra/
-usr/share/icons/hicolor/128x128/apps/kalgebra.png
-usr/share/icons/hicolor/16x16/apps/kalgebra.png
-usr/share/icons/hicolor/32x32/apps/kalgebra.png
-usr/share/icons/hicolor/48x48/apps/kalgebra.png
 usr/share/icons/hicolor/64x64/apps/kalgebra.png
 usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
 usr/share/katepart5/syntax/kalgebra.xml
