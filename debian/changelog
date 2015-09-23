@@ -1,8 +1,8 @@
-kalgebra (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+kalgebra (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 22:52:54 +0100
+ -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:14:38 +0100
 
 kalgebra (4:15.08.0-0ubuntu1) wily; urgency=medium
 
