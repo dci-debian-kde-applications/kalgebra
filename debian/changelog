@@ -1,3 +1,9 @@
+kalgebra (4:15.08.3-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:41:35 +0100
+
 kalgebra (4:15.08.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
