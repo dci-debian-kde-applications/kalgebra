@@ -1,9 +1,28 @@
+kalgebra (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Debian merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 29 Jan 2016 07:07:24 -0800
+
+kalgebra (4:15.12.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:15:22 +0100
+
 kalgebra (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Fixing install file
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:34:13 +0000
+
+kalgebra (4:15.08.3-1) experimental; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:22 +0100
 
 kalgebra (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -17,6 +36,18 @@ kalgebra (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:14:38 +0100
+
+kalgebra (4:15.08.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.08.0).
+
+  [ Jeremy Lainé ]
+  * New upstream release (15.04.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Sep 2015 18:11:38 +0200
 
 kalgebra (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -43,11 +74,27 @@ kalgebra (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:34:31 +0200
 
+kalgebra (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:44 +0200
+
 kalgebra (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:39:43 -0700
+
+kalgebra (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Feb 2015 13:41:43 +0100
 
 kalgebra (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
