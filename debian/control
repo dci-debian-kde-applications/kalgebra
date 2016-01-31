@@ -69,18 +69,3 @@ Description: contains files common for kalgebra and kalgebramobile
  versions.
  .
  This package is part of the KDE education module.
-
-Package: kalgebra-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kalgebra (= ${binary:Version}) | kalgebramobile (= ${binary:Version}),
-         ${misc:Depends}
-Recommends: libanalitza-dbg
-Breaks: kdeedu-dbg (<< 4:4.6.80)
-Replaces: kdeedu-dbg (<< 4:4.6.80)
-Description: debugging symbols for the KDE education module
- This package contains debugging files used to investigate problems with
- binaries included in kalgebra.
- .
- This package is part of the KDE education module.
