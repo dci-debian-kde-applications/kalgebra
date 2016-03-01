@@ -3,4 +3,4 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
-	$(overridden_command) --ddeb-migration='kalgebra-dbg (<= 4:15.12.1-1~~)'
+	$(overridden_command) --dbgsym-migration='kalgebra-dbg (<= 4:15.12.1-1~~)'
