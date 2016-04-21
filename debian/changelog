@@ -1,12 +1,13 @@
-kalgebra (4:15.12.2-2~3.gbp82fcfd) UNRELEASED; urgency=medium
+kalgebra (4:16.04.0-1~1.gbp9f846b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @82fcfd133188ded3ba8f46cc7d8e87b8de89cf5f **
+  ** SNAPSHOT build @9f846beb3b0dc4e6a2d57cf7e02d132674b84039 **
 
   * Bump Standards-Version to 3.9.8
   * Add mesa-dev as a build dep
   * Add glu mesa dev build dep
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 10:38:20 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 02:46:11 +0200
 
 kalgebra (4:15.12.2-1) unstable; urgency=medium
 
