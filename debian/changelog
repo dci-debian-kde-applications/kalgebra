@@ -4,11 +4,18 @@ kalgebra (4:16.04.2-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Thu, 16 Jun 2016 11:08:54 +0000
 
-kalgebra (4:16.04.1-0neon) xenial; urgency=medium
+kalgebra (4:16.04.0-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Add mesa-dev as a build dep
+  * Add glu mesa dev build dep
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:12:18 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 11:47:54 +0200
 
 kalgebra (4:15.12.2-1) unstable; urgency=medium
 
