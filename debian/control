@@ -47,6 +47,7 @@ Package: kalgebramobile
 Architecture: any
 Section: math
 Depends: kalgebra-common (= ${binary:Version}),
+         kirigami,
          plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
