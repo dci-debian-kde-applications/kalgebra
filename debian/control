@@ -47,8 +47,8 @@ Package: kalgebramobile
 Architecture: any
 Section: math
 Depends: kalgebra-common (= ${binary:Version}),
-         kirigami,
          plasma-framework,
+         qml-module-org-kde-kirigami,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: algebraic graphing calculator for small touch based interfaces
