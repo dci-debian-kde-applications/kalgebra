@@ -1,10 +1,11 @@
-kalgebra (4:16.08.0-2~1.gbpf27916) UNRELEASED; urgency=medium
+kalgebra (4:16.08.3-1~1.gbp2c60e6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f2791692763a52bee537306784a3f59680b360e2 **
+  ** SNAPSHOT build @2c60e61d7bdf5f3833cd27b6e10c91a86e5918af **
 
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 19 Oct 2016 00:46:29 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 20:46:21 +0100
 
 kalgebra (4:16.08.0-1) unstable; urgency=medium
 
