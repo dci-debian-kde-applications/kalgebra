@@ -17,12 +17,12 @@ Build-Depends: cmake (>= 2.8.11),
                libncurses5-dev,
                libqt5opengl5-dev (>= 5.4),
                libqt5svg5-dev (>= 5.4),
-               libqt5webkit5-dev (>= 5.4),
                libreadline-dev,
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
-               qtdeclarative5-dev (>= 5.4)
+               qtdeclarative5-dev (>= 5.4),
+               qtwebengine5-dev
 Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kalgebra.git
