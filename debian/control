@@ -60,8 +60,8 @@ Description: algebraic graphing calculator for small touch based interfaces
 Package: kalgebra-common
 Architecture: any
 Section: math
-Breaks: kalgebra (<< 4:4.7.2)
-Replaces: kalgebra (<< 4:4.7.2)
+Breaks: kalgebra (<< 4:4.7.2), ${kde-l10n:all}
+Replaces: kalgebra (<< 4:4.7.2), ${kde-l10n:all}
 Depends: plasma-framework,
          qml-module-org-kde-analitza,
          ${misc:Depends},
