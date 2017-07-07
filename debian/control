@@ -48,7 +48,7 @@ Architecture: any
 Section: math
 Depends: kalgebra-common (= ${binary:Version}),
          plasma-framework,
-         qml-module-org-kde-kirigami,
+         qml-module-org-kde-kirigami2,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: algebraic graphing calculator for small touch based interfaces
