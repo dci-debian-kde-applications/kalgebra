@@ -6,11 +6,11 @@ Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.11),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
-               libkf5doctools-dev,
                libanalitza-dev (>= 4:17.08~),
                libgl1-mesa-dev,
                libglu1-mesa-dev,
                libkf5configwidgets-dev (>= 5),
+               libkf5doctools-dev,
                libkf5i18n-dev (>= 5),
                libkf5kio-dev,
                libkf5widgetsaddons-dev (>= 5),
@@ -22,7 +22,7 @@ Build-Depends: cmake (>= 2.8.11),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
-               qtwebengine5-dev
+               qtwebengine5-dev,
 Standards-Version: 4.1.0
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kalgebra.git
@@ -33,28 +33,14 @@ Architecture: any
 Section: math
 Depends: kalgebra-common (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Conflicts: calgebra
 Replaces: kalgebra-common (<< ${source:Version}~ciBuild)
 Breaks: kalgebra-common (<< ${source:Version}~ciBuild),
-        kalgebramobile (<< 4:4.7.2)
+        kalgebramobile (<< 4:4.7.2),
 Description: algebraic graphing calculator
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
- .
- This package is part of the KDE education module.
-
-Package: kalgebramobile
-Architecture: any
-Section: math
-Depends: kalgebra-common (= ${binary:Version}),
-         plasma-framework,
-         qml-module-org-kde-kirigami2,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: algebraic graphing calculator for small touch based interfaces
- KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language. This is the version for small touch based interfaces
  .
  This package is part of the KDE education module.
 
@@ -66,10 +52,24 @@ Replaces: kalgebra (<< 4:4.7.2), ${kde-l10n:all}
 Depends: plasma-framework,
          qml-module-org-kde-analitza,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: contains files common for kalgebra and kalgebramobile
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language and it contains files needed for both full and mobile
  versions.
+ .
+ This package is part of the KDE education module.
+
+Package: kalgebramobile
+Architecture: any
+Section: math
+Depends: kalgebra-common (= ${binary:Version}),
+         plasma-framework,
+         qml-module-org-kde-kirigami2,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: algebraic graphing calculator for small touch based interfaces
+ KAlgebra is a algebraic graphing calculator with support for 3D graphing and
+ MathML markup language. This is the version for small touch based interfaces
  .
  This package is part of the KDE education module.
