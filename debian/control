@@ -35,9 +35,8 @@ Depends: kalgebra-common (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: calgebra
-Replaces: kalgebra-common (<< ${source:Version}~ciBuild)
-Breaks: kalgebra-common (<< ${source:Version}~ciBuild),
-        kalgebramobile (<< 4:4.7.2)
+Replaces: kalgebra-common (<< 4:17.08.1)
+Breaks: kalgebra-common (<< 4:17.08.1), kalgebramobile (<< 4:4.7.2)
 Description: algebraic graphing calculator
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
