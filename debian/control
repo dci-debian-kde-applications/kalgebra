@@ -18,12 +18,12 @@ Build-Depends: cmake (>= 2.8.11),
                libncurses5-dev,
                libqt5opengl5-dev (>= 5.4),
                libqt5svg5-dev (>= 5.4),
-               libqt5webkit5-dev (>= 5.4),
                libreadline-dev,
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
-               qtdeclarative5-dev (>= 5.4)
+               qtdeclarative5-dev (>= 5.4),
+               qtwebengine5-dev
 Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kalgebra.git
@@ -36,8 +36,9 @@ Depends: kalgebra-common (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: calgebra
-Replaces: calgebra
-Breaks: kalgebramobile (<< 4:4.7.2)
+Replaces: kalgebra-common (<< ${source:Version}~ciBuild)
+Breaks: kalgebra-common (<< ${source:Version}~ciBuild),
+        kalgebramobile (<< 4:4.7.2)
 Description: algebraic graphing calculator
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
@@ -49,6 +50,7 @@ Architecture: any
 Section: math
 Depends: kalgebra-common (= ${binary:Version}),
          plasma-framework,
+         qml-module-org-kde-kirigami2,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: algebraic graphing calculator for small touch based interfaces
@@ -60,8 +62,8 @@ Description: algebraic graphing calculator for small touch based interfaces
 Package: kalgebra-common
 Architecture: any
 Section: math
-Breaks: kalgebra (<< 4:4.7.2)
-Replaces: kalgebra (<< 4:4.7.2)
+Breaks: kalgebra (<< 4:4.7.2), ${kde-l10n:all}
+Replaces: kalgebra (<< 4:4.7.2), ${kde-l10n:all}
 Depends: plasma-framework,
          qml-module-org-kde-analitza,
          ${misc:Depends},
