@@ -8,7 +8,7 @@ description: |-
 confinement: strict
 grade: stable
 apps:
-    kexi:
+    kalgebra:
         command: kf5-launch kalgebra
         plugs:
         - kde-frameworks-5-plug
