@@ -26,7 +26,7 @@ plugs:
         default-provider: kde-frameworks-5
         target: kf5
 parts:
-    kexi:
+    kalgebra:
         after:
         - kde-frameworks-5-dev
         - kde-frameworks-5-env
