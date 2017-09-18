@@ -1,10 +1,12 @@
-kalgebra (4:17.08.0-1~) UNRELEASED; urgency=medium
+kalgebra (4:17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
+  * Bump kde-l10n breaks/replaces versions
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 05 Sep 2017 16:04:42 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Sep 2017 15:06:14 +0200
 
 kalgebra (4:17.08.0-0neon) xenial; urgency=medium
 
