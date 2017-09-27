@@ -26,7 +26,7 @@ plugs:
         default-provider: kde-frameworks-5
         target: kf5
 parts:
-    kalgebra:
+    analitza:
         after:
         - kde-frameworks-5-dev
         - kde-frameworks-5-env
@@ -34,11 +34,35 @@ parts:
         build-packages:
         - kdoctools-dev
         - kio-dev
-        - libanalitza-dev
         - libgl1-mesa-dev
         - libglu1-mesa-dev
         - libncurses5-dev
         - libreadline-dev
+        - g++
+        source: https://download.kde.org/stable/applications/17.08.1/src/analitza-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
+
+
+    kalgebra:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        - analitza
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - kio-dev
+        - libgl1-mesa-dev
+        - libglu1-mesa-dev
+        - libncurses5-dev
+        - libreadline-dev
+        - gettext
         source: https://download.kde.org/stable/applications/17.08.1/src/kalgebra-17.08.1.tar.xz
         configflags:
         - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
