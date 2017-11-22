@@ -35,8 +35,8 @@ Depends: kalgebra-common (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: calgebra
-Replaces: calgebra
-Breaks: kalgebramobile (<< 4:4.7.2)
+Replaces: kalgebra-common (<< 4:17.08.1)
+Breaks: kalgebra-common (<< 4:17.08.1), kalgebramobile (<< 4:4.7.2)
 Description: algebraic graphing calculator
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
@@ -48,7 +48,7 @@ Architecture: any
 Section: math
 Depends: kalgebra-common (= ${binary:Version}),
          plasma-framework,
-         qml-module-org-kde-kirigami,
+         qml-module-org-kde-kirigami2,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: algebraic graphing calculator for small touch based interfaces
