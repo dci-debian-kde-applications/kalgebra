@@ -22,14 +22,14 @@ Build-Depends: cmake (>= 2.8.11),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
-               qtwebengine5-dev,
+               qtwebengine5-dev [amd64 arm64 armhf i386 mipsel],
 Standards-Version: 4.1.2
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kalgebra.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kalgebra.git
 
 Package: kalgebra
-Architecture: any
+Architecture: amd64 arm64 armhf i386 mipsel
 Section: math
 Depends: kalgebra-common (= ${binary:Version}),
          ${misc:Depends},
@@ -45,7 +45,7 @@ Description: algebraic graphing calculator
  This package is part of the KDE education module.
 
 Package: kalgebra-common
-Architecture: any
+Architecture: amd64 arm64 armhf i386 mipsel
 Section: math
 Breaks: kalgebra (<< 4:4.7.2), ${kde-l10n:all}
 Replaces: kalgebra (<< 4:4.7.2), ${kde-l10n:all}
@@ -63,7 +63,7 @@ Description: contains files common for kalgebra and kalgebramobile
 Package: kalgebramobile
 Architecture: any
 Section: math
-Depends: kalgebra-common (= ${binary:Version}),
+Depends: kalgebra-common (= ${binary:Version}) [amd64 arm64 armhf i386 mipsel],
          plasma-framework,
          qml-module-org-kde-kirigami2,
          ${misc:Depends},

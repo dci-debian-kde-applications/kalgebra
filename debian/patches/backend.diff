@@ -1,0 +1,17 @@
+Author: Pino Toscano <pino@debian.org>
+Description: Do not unconditionally add a directory for MOBILE_BACKEND
+ This makes it possible to specify a non-existing backend to disable an
+ existing one.
+Last-Update: 2017-12-08
+Forwarded: no
+
+--- a/mobile/plugins/widgets/CMakeLists.txt
++++ b/mobile/plugins/widgets/CMakeLists.txt
+@@ -1,4 +1,6 @@
+-add_subdirectory(${MOBILE_BACKEND})
++if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${MOBILE_BACKEND})
++  add_subdirectory(${MOBILE_BACKEND})
++endif()
+ 
+ install( FILES
+     qmldir

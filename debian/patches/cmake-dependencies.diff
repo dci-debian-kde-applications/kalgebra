@@ -1,0 +1,25 @@
+Author: Pino Toscano <pino@debian.org>
+Description: Always require Qt5PrintSupport and KF5I18n
+ They are needed also for kalgebramobile, so always require them.
+Last-Update: 2017-12-08
+Forwarded: no
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -32,13 +32,14 @@ set_package_properties(Curses PROPERTIES
+ add_definitions(-DQT_USE_FAST_CONCATENATION -DQT_USE_FAST_OPERATOR_PLUS)
+ add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
+ 
++find_package(Qt5PrintSupport REQUIRED)
++find_package(KF5I18n ${KF5_VERSION} REQUIRED)
++
+ if(${MOBILE_BACKEND} STREQUAL "kde")
+-    find_package(KF5I18n ${KF5_VERSION} REQUIRED)
+     find_package(KF5ConfigWidgets ${KF5_VERSION} REQUIRED)
+     find_package(KF5WidgetsAddons ${KF5_VERSION} REQUIRED)
+     find_package(KF5KIO REQUIRED)
+     find_package(Qt5WebEngineWidgets REQUIRED)
+-    find_package(Qt5PrintSupport REQUIRED)
+     find_package(KF5DocTools)
+ 
+     add_subdirectory(src)

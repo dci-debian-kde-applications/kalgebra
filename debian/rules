@@ -1,9 +1,17 @@
 #!/usr/bin/make -f
 
+include /usr/share/dpkg/architecture.mk
+
 l10npkgs_firstversion_ok := 4:17.04.3-2~
+webengine_archs := amd64 arm64 armhf i386 mipsel
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
+
+ifneq ($(DEB_HOST_ARCH),$(filter $(DEB_HOST_ARCH),$(webengine_archs)))
+override_dh_auto_configure:
+	$(overridden_command) -- -DMOBILE_BACKEND="none"
+endif
 
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='kalgebra-dbg (<= 4:15.12.1-1~~)'

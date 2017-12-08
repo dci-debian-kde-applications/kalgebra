@@ -4,6 +4,14 @@ kalgebra (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
+  * Build a reduced version on architectures without QtWebEngine:
+    - limit the qtwebengine5-dev build dependency
+    - limit the kalgebra, and kalgebra-common binaries
+    - without it, pass -DMOBILE_BACKEND=none to cmake, to build only
+      kalgebramobile
+    - fix cmake to not error our on -DMOBILE_BACKEND=none, patch backend.diff
+    - fix cmake to look for the libraries used also by kalgebramobile; patch
+      cmake-dependencies.diff
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Dec 2017 20:17:54 +0100
 
