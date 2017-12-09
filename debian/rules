@@ -2,7 +2,7 @@
 
 include /usr/share/dpkg/architecture.mk
 
-l10npkgs_firstversion_ok := 4:17.04.3-2~
+l10npkgs_firstversion_ok := 4:16.04.3-7~
 webengine_archs := amd64 arm64 armhf i386 mipsel
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
